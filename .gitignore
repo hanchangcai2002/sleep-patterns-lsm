@@ -1,0 +1,15 @@
+# Raw data (see data/README.md before ever committing this)
+data/*.xlsx
+data/*.csv
+
+# Saved intermediate objects / model fits produced by the scripts
+*.rds
+
+# R / RStudio housekeeping
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# macOS
+.DS_Store
