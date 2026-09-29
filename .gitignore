@@ -1,6 +1,7 @@
 # Raw data (see data/README.md before ever committing this)
 data/*.xlsx
 data/*.csv
+!data/synthetic_sleep_data.csv
 
 # Saved intermediate objects / model fits produced by the scripts
 *.rds

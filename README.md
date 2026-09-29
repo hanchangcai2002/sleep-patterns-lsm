@@ -11,6 +11,7 @@ R code accompanying:
 ```
 data/
   README.md            # expected data file and schema (not published)
+  synthetic_sleep_data.csv  # synthetic stand-in (eCDF-copula)
 four_day_model.R        # Section 4.2 -> Table 1
 seven_day_model.R       # Section 4.3.3 -> Table 2
 simulation/             # simulation study
@@ -29,6 +30,11 @@ dataset.
 
 Not published, due to patient privacy restrictions — see
 [`data/README.md`](data/README.md) for the expected file and its schema.
+
+A synthetic dataset, generated with the eCDF-copula method
+(<https://doi.org/10.64898/2026.08.03.742474>), is provided in
+[`data/synthetic_sleep_data.csv`](data/synthetic_sleep_data.csv) so the
+scripts can be run end to end.
 
 ## Correspondence with the manuscript
 
